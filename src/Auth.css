@@ -1,0 +1,64 @@
+.form{
+  background-color: #FDFEFE;
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label{
+  width: 80%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 20px 0;
+  color: #3498DB;
+}
+
+.input{
+  width: 80%;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #34495E;
+  border-radius: 5px;
+  background-color: #F0F3F4;
+  outline: none;
+  border: none;
+}
+
+.button{
+  width: 60%;
+  height: 40px;
+  margin: 15px auto;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #F0F3F4;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button.sign-up{
+  background-image: linear-gradient(to left, #1976D2,#009DE6, #00BED8, #00D9B1);
+}
+
+.button.log-in{
+  background-image: linear-gradient(to right, #1976D2, #4890EF, #6BAAFF, #8BC6FF, #AAE2FF);
+}
+
+.log-out{
+  width: 180px;
+  height: 40px;
+  margin: 15px auto;
+  padding: 0 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  cursor: pointer;
+}
